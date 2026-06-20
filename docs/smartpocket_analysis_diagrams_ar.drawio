@@ -1,0 +1,329 @@
+<mxfile host="app.diagrams.net" agent="Codex" pages="5">
+  <diagram id="ar1" name="01 - مخطط حالات الاستخدام">
+    <mxGraphModel dx="2307" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s" parent="1" style="shape=mxgraph.basic.rounded_frame;rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;" value="نظام SmartPocket" vertex="1">
+          <mxGeometry height="1030" width="970" x="330" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="المستخدم" vertex="1">
+          <mxGeometry height="140" width="70" x="230" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="الوقت/الجدولة" vertex="1">
+          <mxGeometry height="140" width="70" x="230" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="u1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="إكمال الإعداد الأولي" vertex="1">
+          <mxGeometry height="70" width="240" x="460" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="إدارة التصنيفات" vertex="1">
+          <mxGeometry height="70" width="240" x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="إضافة/تعديل/حذف المصروفات" vertex="1">
+          <mxGeometry height="70" width="300" x="460" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="u4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="إضافة/تعديل/حذف الدخل" vertex="1">
+          <mxGeometry height="70" width="280" x="460" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="u5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="إدارة الديون والمدفوعات" vertex="1">
+          <mxGeometry height="70" width="280" x="460" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="u6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="إدارة القيود الدورية" vertex="1">
+          <mxGeometry height="70" width="250" x="460" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="u7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="إدارة أهداف الادخار" vertex="1">
+          <mxGeometry height="70" width="250" x="460" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="u8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="عرض التقارير (يومي/شهري/سنوي)" vertex="1">
+          <mxGeometry height="70" width="340" x="460" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="u9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="تصدير التقارير PDF/XLSX" vertex="1">
+          <mxGeometry height="70" width="280" x="460" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="u10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="تعديل الإعدادات/الثيم" vertex="1">
+          <mxGeometry height="70" width="250" x="460" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="u11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="معالجة القيود الدورية المستحقة" vertex="1">
+          <mxGeometry height="70" width="320" x="950" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="u12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="إرسال تذكير الديون" vertex="1">
+          <mxGeometry height="70" width="250" x="950" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="u13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" value="تخصيص جزء من الدخل للادخار" vertex="1">
+          <mxGeometry height="70" width="320" x="950" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="endArrow=none;" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a1" style="endArrow=none;" target="u2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="a1" style="endArrow=none;" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="a1" style="endArrow=none;" target="u4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="a1" style="endArrow=none;" target="u5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="a1" style="endArrow=none;" target="u6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="a1" style="endArrow=none;" target="u7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="a1" style="endArrow=none;" target="u8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="a1" style="endArrow=none;" target="u9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="a1" style="endArrow=none;" target="u10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="a2" style="endArrow=none;" target="u11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="a2" style="endArrow=none;" target="u12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="u4" style="dashed=1;endArrow=open;" target="u13" value="include">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ar2" name="02 - المتطلبات (وظيفية + غير وظيفية)">
+    <mxGraphModel dx="1493" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="req_main" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;" value="SmartPocket — مواصفات المتطلبات" vertex="1">
+          <mxGeometry height="40" width="500" x="500" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="req_fr_box" parent="1" style="swimlane;startSize=36;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#6c8ebf;fontStyle=1;rounded=1;" value="المتطلبات الوظيفية (FR)" vertex="1">
+          <mxGeometry height="1080" width="840" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fr1" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" value="FR-01: منع الدخول للشاشات الرئيسية قبل الإعداد الأولي" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" value="FR-02: إدارة التصنيفات (إضافة / تعديل / حذف)" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="fr3" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;" value="FR-03: إدارة المصروفات مع ربط التصنيف والتاريخ" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="fr4" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" value="FR-04: إدارة الدخل مع المصدر والتاريخ" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="fr5" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" value="FR-05: تخصيص اختياري من الدخل لهدف ادخار" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="fr6" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=8;" value="FR-06: إدارة الديون وتسجيل الدفعات ومتابعة الحالة" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fr7" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" value="FR-07: إدارة القيود الدورية ومعالجة المستحق تلقائيا" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="fr8" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" value="FR-08: إدارة أهداف الادخار والمساهمات" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="fr9" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;" value="FR-09: تقارير يومية / شهرية / سنوية وتحليل حسب التصنيف" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="fr10" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;" value="FR-10: تصدير التقارير إلى PDF و XLSX" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="fr11" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;" value="FR-11: حفظ الإعدادات والثيم محليا" vertex="1">
+          <mxGeometry height="52" width="800" x="20" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="fr_trace" parent="req_fr_box" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&lt;b&gt;تتبع البيانات (FR → جداول)&lt;/b&gt;&lt;hr&gt;المصروفات → expenses, categories&lt;br&gt;الدخل → incomes&lt;br&gt;الديون → debts, debt_payments&lt;br&gt;الدوري → recurring_entries&lt;br&gt;الادخار → savings_goals, savings_goal_contributions&lt;br&gt;الإعداد → settings" vertex="1">
+          <mxGeometry height="130" width="800" x="20" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="req_nfr_box" parent="1" style="swimlane;startSize=36;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;fontStyle=1;rounded=1;" value="المتطلبات غير الوظيفية (NFR)" vertex="1">
+          <mxGeometry height="1080" width="840" x="920" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;" value="NFR-01 الأداء&lt;br&gt;قراءة/حفظ سريع محليا عبر SQLite وتحديث Riverpod" vertex="1">
+          <mxGeometry height="70" width="800" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;" value="NFR-02 الاعتمادية&lt;br&gt;ترحيلات DB حتى v8 + PRAGMA foreign_keys = ON" vertex="1">
+          <mxGeometry height="70" width="800" x="20" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=8;" value="NFR-03 سهولة الاستخدام&lt;br&gt;تنقل Shell واضح + نماذج إدخال مع تحقق" vertex="1">
+          <mxGeometry height="70" width="800" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;" value="NFR-04 القابلية للصيانة&lt;br&gt;فصل Presentation / Domain / Data + Repository pattern" vertex="1">
+          <mxGeometry height="70" width="800" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;" value="NFR-05 التعدد المنصاتي&lt;br&gt;Flutter: Android / iOS / Web / Desktop" vertex="1">
+          <mxGeometry height="70" width="800" x="20" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;" value="NFR-06 الخصوصية&lt;br&gt;لا API خارجي — البيانات المالية على الجهاز فقط" vertex="1">
+          <mxGeometry height="70" width="800" x="20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=8;" value="NFR-07 قابلية الاستخدام المحلي&lt;br&gt;إشعارات محلية + تصدير PDF/XLSX + SharedPreferences للثيم" vertex="1">
+          <mxGeometry height="70" width="800" x="20" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="nfr_note" parent="req_nfr_box" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;strokeColor=#999999;dashed=1;fontSize=11;" value="&lt;b&gt;ملاحظة&lt;/b&gt;: FR = ماذا يفعل النظام&lt;br&gt;NFR = كيف يجب أن يعمل (جودة/أداء/أمان)" vertex="1">
+          <mxGeometry height="60" width="800" x="20" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ar4" name="03 - ERD (مصحح)">
+    <mxGraphModel dx="1692" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="erd_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" value="ERD — smartpocket.db&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_cat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="&lt;b&gt;categories&lt;/b&gt;&lt;hr&gt;PK  id (TEXT)&lt;br&gt;name&lt;br&gt;icon_key&lt;br&gt;color_value&lt;br&gt;created_at" vertex="1">
+          <mxGeometry height="110" width="200" x="620" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_exp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="&lt;b&gt;expenses&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;FK  category_id → categories&lt;br&gt;amount_minor, note, date&lt;br&gt;currency_code, created_at" vertex="1">
+          <mxGeometry height="100" width="240" x="290" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_bud" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&lt;b&gt;budgets&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;FK  category_id → categories&lt;br&gt;year, month, limit_amount_minor&lt;br&gt;alert_period, created_at&lt;br&gt;UQ (category_id, year, month)" vertex="1">
+          <mxGeometry height="120" width="260" x="850" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_inc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="&lt;b&gt;incomes&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;amount_minor, date, source&lt;br&gt;currency_code, created_at&lt;br&gt;&lt;i&gt;(بدون FK)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="95" width="200" x="620" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_set" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="&lt;b&gt;settings&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;opening_balance_minor&lt;br&gt;default_monthly_income_minor&lt;br&gt;base_currency_code&lt;br&gt;onboarding_completed&lt;br&gt;budget_alert_period&lt;br&gt;created_at, updated_at&lt;br&gt;&lt;i&gt;(بدون FK)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="130" width="260" x="850" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_rec" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;recurring_entries&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;entry_kind, title, amount_minor&lt;br&gt;currency_code, day_of_month&lt;br&gt;is_active, payload_json&lt;br&gt;last_confirmed_ym, created_at&lt;br&gt;&lt;i&gt;(بدون FK)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_deb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="&lt;b&gt;debts&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;amount_minor, paid_amount_minor&lt;br&gt;remaining_amount_minor&lt;br&gt;person_name, contact_id&lt;br&gt;due_date, debt_type, status&lt;br&gt;last_payment_at, reminder_last_sent_at&lt;br&gt;currency_code, note, created_at" vertex="1">
+          <mxGeometry height="150" width="280" x="230" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_dp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" value="&lt;b&gt;debt_payments&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;FK  debt_id → debts&lt;br&gt;amount_minor, paid_at&lt;br&gt;created_at" vertex="1">
+          <mxGeometry height="90" width="220" x="520" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_sg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="&lt;b&gt;savings_goals&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;title, target_amount_minor&lt;br&gt;saved_amount_minor&lt;br&gt;start_date, target_date&lt;br&gt;status, currency_code&lt;br&gt;created_at, updated_at" vertex="1">
+          <mxGeometry height="130" width="240" x="750" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_sgc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="&lt;b&gt;savings_goal_contributions&lt;/b&gt;&lt;hr&gt;PK  id&lt;br&gt;FK  goal_id → savings_goals&lt;br&gt;amount_minor, source&lt;br&gt;linked_expense_id &lt;i&gt;(منطقي فقط)&lt;/i&gt;&lt;br&gt;created_at, updated_at" vertex="1">
+          <mxGeometry height="110" width="280" x="1010" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_leg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&lt;b&gt;دليل العلاقات&lt;/b&gt;&lt;hr&gt;━━━  FK رسمي (ON DELETE CASCADE)&lt;br&gt;╌╌╌  ربط منطقي بدون FK في SQLite&lt;br&gt;categories ← expenses, budgets&lt;br&gt;debts ← debt_payments&lt;br&gt;savings_goals ← savings_goal_contributions" vertex="1">
+          <mxGeometry height="110" width="480" x="290" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_iso" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=8;fillColor=#f5f5f5;strokeColor=#999999;fontSize=11;dashed=1;" value="&lt;b&gt;جداول مستقلة&lt;/b&gt;&lt;hr&gt;incomes · settings · recurring_entries" vertex="1">
+          <mxGeometry height="60" width="280" x="800" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_e1" edge="1" parent="1" source="erd_cat" style="endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;strokeColor=#6c8ebf;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="erd_exp" value="category_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_e2" edge="1" parent="1" source="erd_cat" style="endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;strokeColor=#6c8ebf;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="erd_bud" value="category_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_e3" edge="1" parent="1" source="erd_deb" style="endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;strokeColor=#d79b00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="erd_dp" value="debt_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_e4" edge="1" parent="1" source="erd_sg" style="endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;html=1;rounded=0;strokeWidth=2;strokeColor=#82b366;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="erd_sgc" value="goal_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erd_e5" edge="1" parent="1" source="erd_sgc" style="endArrow=open;startArrow=none;dashed=1;strokeColor=#999999;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="erd_exp" value="linked_expense_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="420" />
+              <mxPoint x="560" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ar5" name="04 - بنية الطبقات">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l1" value="طبقة العرض&#xa;Screens + Providers + GoRouter" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="1940" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" value="طبقة الدومين&#xa;Entities + Repository Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="1940" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" value="طبقة البيانات&#xa;Repository Implementations + Local DataSources" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="1940" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" value="التخزين والخدمات&#xa;SQLite + SharedPreferences + Notifications + Export Files" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1010" width="1940" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="le1" style="endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="l1" target="l2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le2" style="endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="l2" target="l3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="le3" style="endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="l3" target="l4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ar6" name="05 - هيكل التنقل">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g1" value="بداية التطبيق" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" value="هل onboarding_completed = 1 ؟" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" value="/onboarding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="690" y="100" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g4" value="MainShell /home" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g5" value="home" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6" value="categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g7" value="reports" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g8" value="settings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g9" value="مسارات فرعية ضمن categories:&#xa;/expense/add /expense/edit/:id&#xa;/income/add /income/edit/:id&#xa;/debts /debt/add /debt/:id /debt/edit/:id&#xa;/recurring /recurring/add /recurring/edit/:id&#xa;/savings-goals /savings-goal/add /savings-goal/edit/:id" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="130" width="850" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ge1" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g1" target="g2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge2" value="لا" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g2" target="g3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge3" value="نعم" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g2" target="g4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge4" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge5" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge7" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge8" style="endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="g6" target="g9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" modified="2026-06-02T12:02:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="p1" name="01 - Use Case Diagram">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="sys" value="SmartPocket System" style="shape=mxgraph.basic.rounded_frame;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="360" y="40" width="1220" height="1180" as="geometry"/></mxCell>
+        <mxCell id="actor1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="80" y="280" width="70" height="140" as="geometry"/></mxCell>
+        <mxCell id="actor2" value="Time/Scheduler" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="80" y="850" width="70" height="140" as="geometry"/></mxCell>
+        <mxCell id="u1" value="Complete onboarding" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="470" y="90" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u2" value="Manage categories" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="470" y="190" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u3" value="Add/Edit/Delete expenses" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="470" y="290" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u4" value="Add/Edit/Delete incomes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="470" y="390" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u5" value="Manage debts + payments" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="470" y="490" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u6" value="Manage recurring entries" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="470" y="590" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u7" value="Manage savings goals" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="470" y="690" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u8" value="View reports (daily/monthly/yearly)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="470" y="790" width="320" height="70" as="geometry"/></mxCell>
+        <mxCell id="u9" value="Export reports (PDF/XLSX)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="470" y="890" width="250" height="70" as="geometry"/></mxCell>
+        <mxCell id="u10" value="Update settings/theme" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="470" y="990" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u11" value="Process due recurring entries" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="940" y="590" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="u12" value="Send debt reminders" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="940" y="690" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="u13" value="Allocate income to savings goal" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1"><mxGeometry x="940" y="390" width="280" height="70" as="geometry"/></mxCell>
+        <mxCell id="e1" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="endArrow=none;" edge="1" parent="1" source="actor1" target="u10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" style="endArrow=none;" edge="1" parent="1" source="actor2" target="u11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" style="endArrow=none;" edge="1" parent="1" source="actor2" target="u12"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;" edge="1" parent="1" source="u4" target="u13"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="02 - Functional Requirements">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="f0" value="Functional Requirements (FR)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="40" y="30" width="2100" height="80" as="geometry"/></mxCell>
+        <mxCell id="f1" value="FR-01: Onboarding gate before first use" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="150" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f2" value="FR-02: CRUD categories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="240" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f3" value="FR-03: CRUD expenses + assign category + date" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="80" y="330" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f4" value="FR-04: CRUD incomes + source + date" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="80" y="420" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f5" value="FR-05: Optional income allocation to savings goal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="80" y="510" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f6" value="FR-06: Manage debts + debt payments + reminders" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="80" y="600" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f7" value="FR-07: Manage recurring entries and process due ones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="80" y="690" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f8" value="FR-08: Manage savings goals + contributions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="80" y="780" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f9" value="FR-09: Reports (daily/monthly/yearly + category analysis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="80" y="870" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f10" value="FR-10: Export reports to PDF/XLSX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="80" y="960" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="f11" value="FR-11: Persist theme/settings locally" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="80" y="1050" width="640" height="70" as="geometry"/></mxCell>
+        <mxCell id="trace" value="Traceability (Feature -> Main data tables)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffffff;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="840" y="150" width="1240" height="70" as="geometry"/></mxCell>
+        <mxCell id="t1" value="Expenses -> expenses, categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="840" y="240" width="380" height="60" as="geometry"/></mxCell>
+        <mxCell id="t2" value="Incomes -> incomes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="840" y="320" width="380" height="60" as="geometry"/></mxCell>
+        <mxCell id="t3" value="Debts -> debts, debt_payments" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="840" y="400" width="380" height="60" as="geometry"/></mxCell>
+        <mxCell id="t4" value="Recurring -> recurring_entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="840" y="480" width="380" height="60" as="geometry"/></mxCell>
+        <mxCell id="t5" value="Savings -> savings_goals, savings_goal_contributions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="840" y="560" width="520" height="60" as="geometry"/></mxCell>
+        <mxCell id="t6" value="Onboarding/Settings -> settings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="840" y="640" width="380" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p3" name="03 - Non Functional Requirements">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="n0" value="Non-Functional Requirements (NFR)" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="60" y="40" width="2060" height="80" as="geometry"/></mxCell>
+        <mxCell id="n1" value="NFR-01 Performance&#xa;- Fast local CRUD (SQLite)&#xa;- Lightweight state refresh (Riverpod invalidation)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="100" y="170" width="620" height="180" as="geometry"/></mxCell>
+        <mxCell id="n2" value="NFR-02 Reliability&#xa;- Migrations handled up to DB v8&#xa;- FK constraints enabled&#xa;- Data remains local/offline" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="760" y="170" width="620" height="180" as="geometry"/></mxCell>
+        <mxCell id="n3" value="NFR-03 Usability&#xa;- Clear tab/shell navigation&#xa;- Add/Edit forms with validation&#xa;- Localized Arabic labels in UI sections" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="1420" y="170" width="620" height="180" as="geometry"/></mxCell>
+        <mxCell id="n4" value="NFR-04 Maintainability&#xa;- Layered architecture (presentation/domain/data)&#xa;- Repository contracts and DI providers&#xa;- Feature-based screens/providers split" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="100" y="390" width="620" height="200" as="geometry"/></mxCell>
+        <mxCell id="n5" value="NFR-05 Portability&#xa;- Flutter project supports Android/iOS/Web/Desktop&#xa;- SQLite FFI path for desktop platforms" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="760" y="390" width="620" height="200" as="geometry"/></mxCell>
+        <mxCell id="n6" value="NFR-06 Security/Privacy&#xa;- No external backend/API dependency in app flow&#xa;- User finance data stored locally on device" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1420" y="390" width="620" height="200" as="geometry"/></mxCell>
+        <mxCell id="n7" value="NFR-07 Observability (basic)&#xa;- In-app feedback (SnackBar/messages)&#xa;- Deterministic provider refresh patterns" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="100" y="630" width="620" height="180" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p4" name="04 - System Context">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="c0" value="SmartPocket Mobile/Desktop App" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="760" y="520" width="420" height="170" as="geometry"/></mxCell>
+        <mxCell id="c1" value="End User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="220" y="530" width="70" height="140" as="geometry"/></mxCell>
+        <mxCell id="c2" value="SQLite DB&#xa;(Local device storage)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="1370" y="540" width="210" height="120" as="geometry"/></mxCell>
+        <mxCell id="c3" value="SharedPreferences&#xa;(theme/preferences)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="760" y="340" width="230" height="90" as="geometry"/></mxCell>
+        <mxCell id="c4" value="Local Notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="1020" y="340" width="220" height="90" as="geometry"/></mxCell>
+        <mxCell id="c5" value="File System (Exports)&#xa;PDF/XLSX temp files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="1260" y="340" width="230" height="90" as="geometry"/></mxCell>
+        <mxCell id="ce1" value="uses app" style="endArrow=block;endFill=1;" edge="1" parent="1" source="c1" target="c0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ce2" value="read/write" style="endArrow=block;endFill=1;" edge="1" parent="1" source="c0" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ce3" value="store settings" style="endArrow=block;endFill=1;" edge="1" parent="1" source="c0" target="c3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ce4" value="create alerts" style="endArrow=block;endFill=1;" edge="1" parent="1" source="c0" target="c4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ce5" value="export reports" style="endArrow=block;endFill=1;" edge="1" parent="1" source="c0" target="c5"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p5" name="05 - Layered Architecture">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="a1" value="Presentation Layer&#xa;Screens + Providers + Router" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="120" y="140" width="1940" height="220" as="geometry"/></mxCell>
+        <mxCell id="a2" value="Domain Layer&#xa;Entities + Repository Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="120" y="430" width="1940" height="220" as="geometry"/></mxCell>
+        <mxCell id="a3" value="Data Layer&#xa;Repository Implementations + Local Data Sources" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="120" y="720" width="1940" height="220" as="geometry"/></mxCell>
+        <mxCell id="a4" value="SQLite / SharedPreferences / Notifications / Export Files" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="120" y="1010" width="1940" height="150" as="geometry"/></mxCell>
+        <mxCell id="a5" value="Dependency direction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="950" y="40" width="280" height="60" as="geometry"/></mxCell>
+        <mxCell id="ae1" style="endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="a1" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ae2" style="endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="a2" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ae3" style="endArrow=block;endFill=1;strokeWidth=3;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p6" name="06 - Income Sequence">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="s1" value="User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="120" y="60" width="150" height="50" as="geometry"/></mxCell>
+        <mxCell id="s2" value="AddEditIncomeScreen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="390" y="60" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="s3" value="IncomeRepository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="720" y="60" width="180" height="50" as="geometry"/></mxCell>
+        <mxCell id="s4" value="SavingsGoalRepository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1020" y="60" width="210" height="50" as="geometry"/></mxCell>
+        <mxCell id="s5" value="Providers Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="1340" y="60" width="180" height="50" as="geometry"/></mxCell>
+        <mxCell id="s6" value="SQLite" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1"><mxGeometry x="1640" y="50" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="l1" value="" style="shape=line;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="190" y="130" width="0" height="1080" as="geometry"/></mxCell>
+        <mxCell id="l2" value="" style="shape=line;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="490" y="130" width="0" height="1080" as="geometry"/></mxCell>
+        <mxCell id="l3" value="" style="shape=line;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="810" y="130" width="0" height="1080" as="geometry"/></mxCell>
+        <mxCell id="l4" value="" style="shape=line;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="1125" y="130" width="0" height="1080" as="geometry"/></mxCell>
+        <mxCell id="l5" value="" style="shape=line;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="1430" y="130" width="0" height="1080" as="geometry"/></mxCell>
+        <mxCell id="l6" value="" style="shape=line;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="1705" y="130" width="0" height="1080" as="geometry"/></mxCell>
+        <mxCell id="se1" value="1) Submit form" style="endArrow=block;endFill=1;" edge="1" parent="1" source="l1" target="l2"><mxGeometry relative="1" as="geometry"><mxPoint x="490" y="190" as="targetPoint"/><mxPoint x="190" y="190" as="sourcePoint"/></mxGeometry></mxCell>
+        <mxCell id="se2" value="2) upsert(income)" style="endArrow=block;endFill=1;" edge="1" parent="1" source="l2" target="l3"><mxGeometry relative="1" as="geometry"><mxPoint x="810" y="260" as="targetPoint"/><mxPoint x="490" y="260" as="sourcePoint"/></mxGeometry></mxCell>
+        <mxCell id="se3" value="3) write income row" style="endArrow=block;endFill=1;" edge="1" parent="1" source="l3" target="l6"><mxGeometry relative="1" as="geometry"><mxPoint x="1705" y="330" as="targetPoint"/><mxPoint x="810" y="330" as="sourcePoint"/></mxGeometry></mxCell>
+        <mxCell id="se4" value="4) optional addContribution()" style="endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="l2" target="l4"><mxGeometry relative="1" as="geometry"><mxPoint x="1125" y="410" as="targetPoint"/><mxPoint x="490" y="410" as="sourcePoint"/></mxGeometry></mxCell>
+        <mxCell id="se5" value="5) write contribution row" style="endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="l4" target="l6"><mxGeometry relative="1" as="geometry"><mxPoint x="1705" y="480" as="targetPoint"/><mxPoint x="1125" y="480" as="sourcePoint"/></mxGeometry></mxCell>
+        <mxCell id="se6" value="6) invalidateFinanceCaches" style="endArrow=block;endFill=1;" edge="1" parent="1" source="l2" target="l5"><mxGeometry relative="1" as="geometry"><mxPoint x="1430" y="560" as="targetPoint"/><mxPoint x="490" y="560" as="sourcePoint"/></mxGeometry></mxCell>
+        <mxCell id="se7" value="7) pop screen" style="endArrow=block;endFill=1;" edge="1" parent="1" source="l2" target="l1"><mxGeometry relative="1" as="geometry"><mxPoint x="190" y="650" as="targetPoint"/><mxPoint x="490" y="650" as="sourcePoint"/></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p7" name="07 - Navigation Structure">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="g1" value="App Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="120" y="160" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="g2" value="Onboarding completed?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="340" y="130" width="220" height="120" as="geometry"/></mxCell>
+        <mxCell id="g3" value="/onboarding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="640" y="100" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="g4" value="MainShell (/home)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="640" y="220" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="g5" value="Branch: Home" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="940" y="80" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="g6" value="Branch: Categories" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="940" y="160" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="g7" value="Branch: Reports" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="940" y="240" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="g8" value="Branch: Settings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="940" y="320" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="g9" value="Children (categories branch):&#xa;expense add/edit, income add/edit, debts, recurring, savings-goals, category details" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;" vertex="1" parent="1"><mxGeometry x="1180" y="130" width="740" height="250" as="geometry"/></mxCell>
+        <mxCell id="ge1" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g1" target="g2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge2" value="No" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g2" target="g3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge3" value="Yes" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g2" target="g4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge4" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge5" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge6" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge7" style="endArrow=block;endFill=1;" edge="1" parent="1" source="g4" target="g8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ge8" style="endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="g6" target="g9"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p8" name="08 - ERD">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="e1" value="categories&#xa;PK: id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="100" y="100" width="260" height="170" as="geometry"/></mxCell>
+        <mxCell id="e2" value="expenses&#xa;PK: id&#xa;FK: category_id -> categories.id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="430" y="100" width="300" height="190" as="geometry"/></mxCell>
+        <mxCell id="e3" value="budgets&#xa;PK: id&#xa;FK: category_id -> categories.id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="780" y="100" width="300" height="180" as="geometry"/></mxCell>
+        <mxCell id="e4" value="incomes&#xa;PK: id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1130" y="100" width="260" height="160" as="geometry"/></mxCell>
+        <mxCell id="e5" value="settings&#xa;PK: id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="1450" y="100" width="240" height="150" as="geometry"/></mxCell>
+        <mxCell id="e6" value="debts&#xa;PK: id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="100" y="380" width="260" height="170" as="geometry"/></mxCell>
+        <mxCell id="e7" value="debt_payments&#xa;PK: id&#xa;FK: debt_id -> debts.id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="430" y="380" width="300" height="190" as="geometry"/></mxCell>
+        <mxCell id="e8" value="recurring_entries&#xa;PK: id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="780" y="380" width="280" height="170" as="geometry"/></mxCell>
+        <mxCell id="e9" value="savings_goals&#xa;PK: id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1130" y="380" width="260" height="170" as="geometry"/></mxCell>
+        <mxCell id="e10" value="savings_goal_contributions&#xa;PK: id&#xa;FK: goal_id -> savings_goals.id" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1450" y="380" width="340" height="200" as="geometry"/></mxCell>
+        <mxCell id="e11" value="smartpocket.db&#xa;version 8" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="1890" y="120" width="180" height="120" as="geometry"/></mxCell>
+        <mxCell id="r1" value="1..*" style="endArrow=block;endFill=1;" edge="1" parent="1" source="e2" target="e1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r2" value="1..*" style="endArrow=block;endFill=1;" edge="1" parent="1" source="e3" target="e1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r3" value="1..*" style="endArrow=block;endFill=1;" edge="1" parent="1" source="e7" target="e6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r4" value="1..*" style="endArrow=block;endFill=1;" edge="1" parent="1" source="e10" target="e9"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
