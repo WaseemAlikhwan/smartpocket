@@ -1,21 +1,62 @@
-MIT License
+PolyForm Noncommercial License 1.0.0
 
 Copyright (c) 2026 SmartPocket Contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Acceptance
+In order to get any license under these terms, you must agree
+to them and pay any fee required by the licensor. Releasing a
+contribution under these terms is your agreement to them.
+Developing or using any software released under these terms is
+your agreement to them.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright Grant
+The licensor grants you a copyright license for the software
+to do everything with the software that would otherwise
+infringe the licensor's copyright in it, except for
+commercial use of the software.
+
+Patent Grant
+The licensor grants you a patent license for the software to
+make, have made, use, sell, offer for sale, import, and
+otherwise transfer the software, where that transfer would
+otherwise infringe any patent claims that the licensor can
+license or will be able to license, except for patent claims
+infringed by commercial use of the software.
+
+Noncommercial Purpose
+"Commercial use" means any use of the software for a
+business-related purpose, or any use of the software that is
+intended for or directed toward commercial advantage or private
+monetary compensation. "Commercial use" includes, but is not
+limited to, use of the software in a commercial enterprise,
+use of the software to provide services to third parties for a
+fee, or use of the software to generate advertising revenue.
+Uses for personal, educational, research, or other
+noncommercial purposes are allowed.
+
+Defense
+If you bring a patent lawsuit against the licensor or anyone
+else claiming that the software infringes any patent, your
+patent license for the software ends right away.
+
+Distribution
+You may distribute copies of the software, with or without
+modifications, provided that you include a copy of these
+terms with every copy you distribute.
+
+Notices
+You must ensure that any copies of the software you
+distribute contain all copyright, patent, trademark, and
+attribution notices from the software as you received it.
+
+No Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
