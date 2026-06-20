@@ -71,3 +71,4 @@ docs/               # Architecture diagrams
 ## License
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE).
+<img width="562" height="1280" alt="image" src="https://github.com/user-attachments/assets/c9e2993d-9d81-402f-9fb9-ac07bce382f0" />
