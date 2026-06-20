@@ -1,4 +1,3 @@
-<img width="562"  alt="image" src="https://github.com/user-attachments/assets/78ed657d-923a-4d56-b75d-acf9a1e1c014" /><img width="562"  alt="image" src="https://github.com/user-attachments/assets/f0a15d38-c800-44d7-a087-f31fee29b67f" /># SmartPocket
 
 تطبيق **SmartPocket** لتتبع المصاريف الشخصية — يعمل **محلياً بالكامل** (offline-first) دون اعتماد على خادم خارجي. بياناتك تبقى على جهازك في قاعدة SQLite.
 
